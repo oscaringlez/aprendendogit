@@ -41,28 +41,16 @@
 2. Commit a alteração
 ` git pull `
 
-## Branchs (ramificações)
-- Criar
 
-`git checkout -b nomedobranch`
-
--Adicionar e comentar
-
-`git add *`
-`git commit -m "novo branch"`
-
--Enviar arquivos - _substituir o master pelo novobranch_
-
-`  git push -u nomedobranch `
-
-- Remover 
-
-`git push origin :nomedobranch `
 
 
 
 
 ## _Extras_
+
+### Ordem das coisas
+
+` 1. Adicionar (add) 2. Comentar (commit) 3. Enviar (push) `
 
 - Verificar sua conexao » ` git remote -v `
 - Verificar situação do git » `git status`
