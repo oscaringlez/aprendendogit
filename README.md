@@ -42,7 +42,7 @@
 ` git pull `
 
 
-> ARQUIVOS ACIMA SE COMPLEMENTAM
+> ARQUIVOS ACIMA SE COMPLEMENTAM - Branch, dicas e etc
 
 
 
