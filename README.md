@@ -20,7 +20,7 @@
 ` git commit -m "sua observacao" `
 
 ### Conectar e enviar arquivos
-- **Conectar via SSH:** _Para utilizar via ssh você precisará adicionar uma chave em preferencias_
+- **Conectar via SSH:** _Para utilizar via ssh você precisará adicionar uma chave em [configurações](https://github.com/oscaringlez/aprendendogit/blob/master/Chaves.md)_
 
 ` git remote add origin “git@github.com:SEUUSUARIO/seurepositorio.git” `
 
