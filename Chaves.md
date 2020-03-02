@@ -14,4 +14,4 @@
 
 5. Vá até [Configurações Github](https://github.com/settings/keys) e clique em New SSH
 
-6. Feito..quando for se conectar escolha SSH em seu repositorio
+6. Feito! Quando for se conectar escolha SSH em seu repositorio
