@@ -33,11 +33,14 @@
     git push -u origin master 
 
 **Os demais pushes não precisam dessa informação**
+
     git push 
 
 ### Atualizar repositório local de acordo com o repositório remoto
 **Atualizar os arquivos no branch atual**
+
     git pull
+    
 **Buscar as alterações, mas não aplica-las no branch atual**
     git fetch
 
