@@ -19,7 +19,7 @@ Sublime = "'C:/Program Files (x86)/sublime text 3/subl.exe' -w"
 Visual code = "code --wait"
 Notepad++ = "'C:/Program Files (x86)/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
 
-### Ignorar arquivos
+## Ignorar arquivos
 
 #### Criar arquivo .gitignore (via bash)
 
@@ -28,7 +28,7 @@ Notepad++ = "'C:/Program Files (x86)/Notepad++/notepad++.exe' -multiInst -notabb
 > Veja algumas especificações no arquivo .gitignore
 
 
-###Tags
+## Tags
 
 **Criando uma tag leve**
 
