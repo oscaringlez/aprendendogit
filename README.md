@@ -4,9 +4,9 @@
 
 ### Etapas iniciais 
 
-- Iniciar as configurações 
-
-` git init `
+### Criar novo repositório
+	git init
+    
 - Criar seu arquivo Readme (local)
 
 ` echo "# aprendendogit" >> README.md `
@@ -31,6 +31,9 @@
 - Enviando os arquivos
 
 `  git push -u origin master `
+-Os demais pushes não precisam dessa informação
+
+` git push` 
 
 ### Clonar 
 
