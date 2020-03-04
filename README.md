@@ -1,6 +1,7 @@
 # Aprendendo Github
- Baixar -  GIT >> [http://git-scm.com/](http://git-scm.com/)
-- Ir na pasta do projeto e abrir Git Bash - _clicando com direito do mouse_
+- [x] Baixar -  [Git](http://git-scm.com/)
+- [ ] Criar um projeto
+- [ ] Praticar 
 
 ## Etapas iniciais 
 

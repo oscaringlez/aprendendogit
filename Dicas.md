@@ -36,10 +36,16 @@ Notepad++ = "'C:/Program Files (x86)/Notepad++/notepad++.exe' -multiInst -notabb
 
 **Criando uma tag**
 
-    git tag vs-1.1
+    git tag NOMEDATAG
+
 **Criando uma tag anotada**
 
-    git tag -a vs-1.1 -m "Minha versão 1.1"
+    git tag -a NOMEDATAG -m "Seu comentario"
+
+**Remover local e remoto**
+
+    git tag -d NOMEDATAG
+    git push --delete NOMEDATAG
 
 ## Comandos avulsos
 - Verificar situação do git » `git status`
