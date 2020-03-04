@@ -11,7 +11,7 @@
     git init
 
 ### Criar seu arquivo Readme (local)
-    echo "# aprendendogit" >> README.md 
+    echo "# novorepositorio" >> README.md 
 
 ### Informar ao arquivo config adição de um arquivo (individual)
     git add README.md  
@@ -98,3 +98,4 @@ Este comando deve ser utilizando quando o arquivo já foi adicionado na staged a
 
 
 
+# aprendendogit
