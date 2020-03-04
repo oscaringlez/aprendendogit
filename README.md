@@ -40,8 +40,9 @@
 **Atualizar os arquivos no branch atual**
 
     git pull
-    
+
 **Buscar as alterações, mas não aplica-las no branch atual**
+    
     git fetch
 
 
@@ -60,11 +61,17 @@
     git rm meu_arquivo.txt
 
 ### Desfazendo operações
+
 **Desfazendo alteração local (working directory)**
+
 Este comando deve ser utilizando enquanto o arquivo não foi adicionado na staged area.
+
     git checkout -- meu_arquivo.txt
+
 **Desfazendo alteração local (staging area)**
+
 Este comando deve ser utilizando quando o arquivo já foi adicionado na staged area.
+
     git reset HEAD meu_arquivo.txt
 
 
