@@ -6,7 +6,7 @@
 
 ### Criar novo repositório
 
-git init
+    git init
 
 ### Criar seu arquivo Readme (local)
  echo "# aprendendogit" >> README.md 
