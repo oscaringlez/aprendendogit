@@ -12,12 +12,12 @@
 ### Criar seu arquivo Readme (local)
     echo "# aprendendogit" >> README.md 
 
-### Informar ao arquivo config adição de um arquivo
+### Informar ao arquivo config adição de um arquivo (individual)
     git add README.md  
 
-**ou**
+**ou adicionando todos arquivos**
 
-    git add * informa todos arquivos 
+    git add  
 
 ### Informar o que foi alterado nos arquivos ou adicionados
     git commit -m "sua observacao" 
@@ -67,6 +67,10 @@
 
 ### Remover arquivo
     git rm meu_arquivo.txt
+
+### Mover arquivos
+    git mv ORIGEM DESTINO
+
 
 ### Desfazendo operações
 

@@ -1,8 +1,7 @@
-# Arquivo individula
+# Arquivo individual
 arquivo_a_ser_ignorado.txt
 # Para todos os arquivos e sub-pastas localizados na pasta vendor/
 vendor/
 # Para arquivos css
 *.css
-# Para todos os arquivos e sub-pastas localizados na pasta bower_components/
-bower_components/
+
