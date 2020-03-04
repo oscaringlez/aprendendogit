@@ -1,17 +1,36 @@
 ## Branchs (ramificações)
-- Criar
 
-`git checkout -b nomedobranch`
+### Criando um novo branch
+    git branch nomedobranch
 
--Adicionar e comentar
+### Alterar diretorio (branch ou master)
+    git checkout -b nomedobranch
 
-`git add *`
-`git commit -m "novo branch"`
+**Voltar para o branch principal (master)**
 
--Enviar arquivos - _substituir o master pelo novobranch_
+    git checkout master
 
-`  git push -u nomedobranch `
+### Adicionar e comentar
+    git add *
+    git commit -m "novo branch"
 
-- Remover 
+### Enviar arquivos  
+    git push -u nomedobranch 
 
-`git push origin :nomedobranch `
+### Remover 
+
+**Local**
+
+    git branch -d nomedobranch 
+**Remoto**    
+
+    git push origin:bug-123
+
+
+
+### Resolver merge entre os branches
+    git merge bug-123
+>Para realizar o merge, é necessário estar no branch que deverá receber as alterações. O merge pode automático ou manual. O merge automático será feito em arquivos textos que não sofreram alterações nas mesmas linhas, já o merge manual será feito em arquivos textos que sofreram alterações nas mesmas linhas.
+
+### Listar branches
+    git branch
