@@ -29,7 +29,14 @@
 ### **Conectar via HTTP:**   _Em http será pedido seu usuario e senha github_
     git remote add origin https://github.com/SEUUSUARIO/seurepositorio.git” 
 
-## Enviando os arquivos
+
+
+### Exibir os repositórios remotos
+    git remote
+
+    git remote -v
+
+### Enviando os arquivos
     git push -u origin master 
 
 **Os demais pushes não precisam dessa informação**
@@ -78,7 +85,7 @@ Este comando deve ser utilizando quando o arquivo já foi adicionado na staged a
 
 
 
-> ARQUIVOS ACIMA SE COMPLEMENTAM - Branch, dicas e etc
+> **ARQUIVOS ACIMA SE COMPLEMENTAM - Branch, dicas e etc**
 
 
 
