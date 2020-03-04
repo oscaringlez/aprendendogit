@@ -5,6 +5,7 @@
 ## Etapas iniciais 
 
 ### Criar novo repositório
+
 git init
 
 ### Criar seu arquivo Readme (local)
