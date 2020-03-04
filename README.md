@@ -62,14 +62,16 @@
 ### Adicionar um arquivo em específico
 	git add meu_arquivo.txt
 
+### Mover arquivos (nome de arquivo ou pasta)
+    git mv ORIGEM DESTINO
+
 ### Remover diretório
     git rm -r diretorio
 
 ### Remover arquivo
     git rm meu_arquivo.txt
 
-### Mover arquivos
-    git mv ORIGEM DESTINO
+
 
 
 ### Desfazendo operações
