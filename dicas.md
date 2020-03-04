@@ -27,10 +27,14 @@ Notepad++ = "'C:/Program Files (x86)/Notepad++/notepad++.exe' -multiInst -notabb
 
 > Veja algumas especificações no arquivo .gitignore
 
+## Clonar
+
+#### Clonar um repositório remoto já existente
+    git clone git@github.com:USUARIO/REPOSITORIO.git
 
 ## Tags
 
-**Criando uma tag leve**
+**Criando uma tag**
 
     git tag vs-1.1
 **Criando uma tag anotada**
@@ -40,3 +44,6 @@ Notepad++ = "'C:/Program Files (x86)/Notepad++/notepad++.exe' -multiInst -notabb
 ## Comandos avulsos
 - Verificar situação do git » `git status`
 - Verificar sua conexao » ` git remote -v `
+- Ver log de alterações » `git log`
+- Setar url local -> remoto » `git remote set-url origin git://url`
+- Adicionar arquivo e commitar » `git commit -am "add tudo"`

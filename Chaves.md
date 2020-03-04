@@ -8,7 +8,7 @@
 
 3. De **enter** e depois vai ser perguntado a senha, não aconselho. 
 
-> A senha será criada em: (/c/Users/you/.ssh/id_rsa.pub)
+> A senha será criada em: (/c/Users/SEUNOME/.ssh/id_rsa.pub)
 
 4. Copie e cole com ajuda de bloco de notas os numeros e letras do arquivo acima
 
