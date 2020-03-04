@@ -2,6 +2,7 @@
 - [x] Baixar -  [Git](http://git-scm.com/)
 - [ ] Criar um projeto
 - [ ] Praticar 
+- [ ] Abrir Git Bash
 
 ## Etapas iniciais 
 
