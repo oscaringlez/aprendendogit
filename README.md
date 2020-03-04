@@ -19,7 +19,7 @@
     git add * informa todos arquivos 
 
 ### Informar o que foi alterado nos arquivos ou adicionados
-    git commit ###m "sua observacao" 
+    git commit -m "sua observacao" 
 
 ## Conectar e enviar arquivos
 ### **Conectar via SSH:** _Para utilizar via ssh você precisará adicionar uma chave em [configurações](https://github.com/oscaringlez/aprendendogit/blob/master/Chaves.md)_
@@ -30,18 +30,42 @@
     git remote add origin https://github.com/SEUUSUARIO/seurepositorio.git” 
 
 ## Enviando os arquivos
-    git push ###u origin master 
+    git push -u origin master 
 
-### Os demais pushes não precisam dessa informação
+**Os demais pushes não precisam dessa informação**
     git push 
 
-## Clonar 
-    git clone git@github.com:USUARIO/REPOSITORIO.git 
+### Atualizar repositório local de acordo com o repositório remoto
+**Atualizar os arquivos no branch atual**
+    git pull
+**Buscar as alterações, mas não aplica-las no branch atual**
+    git fetch
 
-### Baixar (servidor -> local)
-1. Conecte ao repositorio
-2. Commit a alteração
-    git pull 
+
+## Alterar arquivos e diretorios
+
+### Adicionar um diretório em específico
+    git add meu_diretorio
+
+### Adicionar um arquivo em específico
+	git add meu_arquivo.txt
+
+### Remover diretório
+    git rm -r diretorio
+
+### Remover arquivo
+    git rm meu_arquivo.txt
+
+### Desfazendo operações
+**Desfazendo alteração local (working directory)**
+Este comando deve ser utilizando enquanto o arquivo não foi adicionado na staged area.
+    git checkout -- meu_arquivo.txt
+**Desfazendo alteração local (staging area)**
+Este comando deve ser utilizando quando o arquivo já foi adicionado na staged area.
+    git reset HEAD meu_arquivo.txt
+
+
+
 
 
 > ARQUIVOS ACIMA SE COMPLEMENTAM - Branch, dicas e etc
