@@ -91,7 +91,8 @@ Este comando deve ser utilizando quando o arquivo já foi adicionado na staged a
 
 ## Explicando visualmente
 
-![explicacaovisual](https://user-images.githubusercontent.com/8312303/76108712-d972f680-5fb9-11ea-9db5-ec1e4d666636.png)
+![explicacaovisual](https://user-images.githubusercontent.com/8312303/76108940-45555f00-5fba-11ea-8e09-1a6581a94955.png)
+
 
 
 
