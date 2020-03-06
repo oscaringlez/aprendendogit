@@ -1,5 +1,6 @@
 # Arquivo individual
 arquivo_a_ser_ignorado.txt
+visual.psd
 # Para todos os arquivos e sub-pastas localizados na pasta vendor/
 vendor/
 # Para arquivos css
