@@ -89,7 +89,7 @@ Este comando deve ser utilizando quando o arquivo já foi adicionado na staged a
 
     git reset HEAD meu_arquivo.txt
 
-
+![explicacaovisual](https://user-images.githubusercontent.com/8312303/76107268-125d9c00-5fb7-11ea-8c97-48f49d147778.jpg)
 
 
 
